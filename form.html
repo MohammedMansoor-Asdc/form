@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Ass 4</title>
+</head>
+
+<body>
+    <h1>Travel Reservation Form</h1>
+    <p>*Denotes Mandotory</p>
+    <form action="backend.js">
+        <div>
+            <label for="name">Full Name* :</label><br>
+            <input type="text" name="name" id="name" placeholder="FullName LastName">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email address* :</label><br>
+            <input type="email" name="email" id="email" placeholder="Email_Address">
+        </div>
+        <br>
+        <div>
+            <label for="Tour">Select Tour Package* :</label><br>
+            <select name="tour" id="tour">
+                <option value="Goa" selected>Goa</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="date">Arrival Date* :</label><br>
+            <input type="date" name="arrivaldate" id="arrivaldate">
+        </div>
+        <br>
+        <div>
+            <label for="noofpeople">No Of Persons* :</label><br>
+            <input type="number" name="noofpeople" id="noofpeople" placeholder="UNKNOWN_TYPE">
+        </div>
+        <br>
+        <div>
+            <label for="avail">What Would You Want To Avail?*</label><br>
+            <label for="boarding">Boarding</label>
+            <input type="radio" name="ratio" id="boarding"><br>
+            <label for="fooding">Fooding</label>
+            <input type="radio" name="ratio" id="fooding"><br>
+            <label for="Sightseeing">Sight Seeing</label>
+            <input type="radio" name="ratio" id="Sightseeing"><br>
+        </div>
+        <br>
+        <div>
+            <label for="discount">Discount Coupon Code :</label><br>
+            <input type="text" name="discount" id="discount" placeholder="UNKNOWN_TYPE">
+        </div>
+        <br>
+        <div>
+            <label for="conditions">Terms and conditions* :</label><br>
+            <input type="radio" name="aord" id="aord">I agree
+            <input type="radio" name="aord" id="aord">I disagree
+        </div>
+        <br>
+        <div>
+            <button type="submit">Complete Reservation</button>
+        </div>
+    </form>
+</body>
+
+</html>
